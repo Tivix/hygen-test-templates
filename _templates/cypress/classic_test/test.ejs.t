@@ -1,5 +1,5 @@
 ---
-to: <%= cwd %>/<%= feature %>/<%= test_name %>.js
+to: <%= cwd %>/cypress/integration/<%= feature %>/<%= test_name %>.js
 ---
 import * as slctr from './selectors';
 
