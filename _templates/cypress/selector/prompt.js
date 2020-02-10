@@ -1,17 +1,17 @@
 module.exports = [
     {
       type: 'input',
-      name: 'path',
-      message: "Where do you want put new selector?"
+      name: 'feature',
+      message: "To which feature do you want to put new selector?"
     },
     {
       type: 'input',
-      name: 'selector_name',
+      name: 'name',
       message: "What's your selector name?"
     },
     {
         type: 'input',
-        name: 'selector_value',
+        name: 'value',
         message: "What's your selector value?"
     }
   ]

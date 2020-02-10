@@ -1,6 +1,6 @@
 ---
 inject: true
-to: <%= cwd %>/<%= path %>/selectors.js
+to: <%= cwd %>/cypress/integration/<%= feature %>/selectors.js
 append: true
 ---
-export const <%= selector_name %> = <%- selector_value %>
+export const <%= name %> = <%- value %>

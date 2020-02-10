@@ -5,12 +5,12 @@ import * as slctr from './selectors';
 
 describe('<%= feature %>', function() {
     before(function() {
-    # clean state before tests
+    // clean state before tests
     });
     after(function() {
-    # finishers
+    // finishers
     });
     it('<%= test_name %>', function() {
-    #test body
+    // test body
     });
 });
