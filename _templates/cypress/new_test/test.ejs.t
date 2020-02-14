@@ -1,6 +1,7 @@
 ---
 to: <%= cwd %>/cypress/integration/<%= feature %>/<%= test_name %>.js
 ---
+/// <reference types="Cypress" />
 import * as select from './selectors';
 
 describe('<%= feature %>', function() {
