@@ -1,7 +1,7 @@
 ---
 to: <%= cwd %>/cypress/integration/<%= feature %>/<%= test_name %>.js
 ---
-import * as slctr from './selectors';
+import * as select from './selectors';
 
 describe('<%= feature %>', function() {
     before(function() {
