@@ -4,9 +4,9 @@ sh: cd <%= cwd %> && prettier --write <%= cwd %>/utils/login_handlers/graphql.js
 skipif: GraphQlLogin, QuickLogin
 ---
 
-export function GraphQlLogin(url, email, password, csrf_token) {
+export function GraphQlLogin(email, password, csrf_token) {
     return cy.request({
-      url: url,
+      url: '/api/graphql/organization/',
       method: 'POST',
       form: false,
       body: {
@@ -23,9 +23,9 @@ export function GraphQlLogin(url, email, password, csrf_token) {
       })
   }
   
-export function QuickLogin(url, email, password) {
+export function QuickLogin(email, password) {
     cy.request({
-      url: url,
+      url: '/app/organization/login',
       method: 'GET',
       form: false
     }).its('headers')
