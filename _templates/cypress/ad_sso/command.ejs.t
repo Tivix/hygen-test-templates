@@ -7,7 +7,7 @@ append: true
 ---
 
 
-Cypress.Commands.add('setSession', function () {
+Cypress.Commands.add('setWfpSession', function () {
 
   const options = {
     username: Cypress.env('username'),
