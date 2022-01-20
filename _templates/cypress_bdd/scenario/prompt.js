@@ -6,12 +6,7 @@ module.exports = [
   },
   {
     type: 'input',
-    name: 'test_name',
+    name: 'file',
     message: "What's your feature file name?"
-  },
-  {
-    type: 'input',
-    name: 'long_feature_name',
-    message: "Put full feature name"
   }
 ]
