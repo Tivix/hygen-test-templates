@@ -3,7 +3,7 @@ to: <%= cwd %>/cypress/integration/<%= feature %>/<%= file %>.feature
 ---
 
 Feature: <%= feature %>
-  Scenario: 
-    Given Precondition
-    When
-    Then
+  Scenario: <%= scenario %>
+    Given Precondition step
+    When Action step
+    Then Verification step
