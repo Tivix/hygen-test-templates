@@ -19,6 +19,6 @@ module.exports = [
       type: 'input',
       name: 'is_form',
       message: "Is that a form ? ",
-      hind: "[true, false]"
+      hint: "[true, false]"
     }
   ]
